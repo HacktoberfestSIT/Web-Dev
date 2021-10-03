@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <title>Document</title>
+</head>
+<body>
+   <p>I am Prakhar and this application</p> 
+   <p>of jquery text changes colour on mouse enter or leave</p>
+</body>
+<script>
+$(document).ready(function(){
+    $("p").mouseenter(function(){
+      $(this).css("background-color","#00ffff");
+    });
+    $("p").mouseleave(function(){
+        $(this).css("background-color","#ffffff");
+    });
+});
+</script>
+</html>

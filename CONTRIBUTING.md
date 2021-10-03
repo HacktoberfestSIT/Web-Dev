@@ -12,6 +12,6 @@ Welcome to the list of people who contributed to this repository
 
 ## Put your names here :
 
-1.
+1.prakhar3062(added Jqueryfile)
 2.
 3.
