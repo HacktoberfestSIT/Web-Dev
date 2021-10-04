@@ -1,5 +1,6 @@
 # Modal
 Code to create a modal window using JavaScript and CSS.
 
-![modal1](/img/modal1.png)
-![modal2](/img/modal2.png)
+<img src="img/modal1.jpg" width="200px" heigth= "auto">
+<img src="img/modal2.png" width="600px" heigth= "auto">
+
