@@ -4,9 +4,14 @@ html, body {
   text-align: center;
 }
 
+
 body {
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(62, 245, 209));
-    }
+}
+
+h1{
+  padding-top: 50px;
+}
 
 #open-modal, #close-modal {
   background-color:blueviolet;
