@@ -1,0 +1,55 @@
+html, body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+
+body {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(62, 245, 209));
+}
+
+h1{
+  padding-top: 50px;
+}
+
+#open-modal, #close-modal {
+  background-color:blueviolet;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 15px 32px;
+  font-size: 20px;
+  cursor: pointer;
+  
+}
+
+#open-modal:hover {
+  background: black;
+  border: solid 1px blueviolet;
+}
+
+#modal {
+  background-color: white;
+  width: 50%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  height: 200px;
+  position: relative;
+  top: 30%;
+  opacity: 1;
+}
+
+#overlay {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+ 
+}
